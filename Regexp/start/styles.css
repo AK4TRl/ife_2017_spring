@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul > li{
+    list-style: none;
+}
+.regexp{
+    width: 600px;
+    margin: 200px auto;
+}
+.regexp .task-item{
+    border: 1px solid #000;
+    height: 120px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+.regexp .task-title{
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.regexp input {
+    width: 300px;
+    border-radius: 2px;
+    border: 1px solid #e3e3e3;
+    padding: 4px 10px;
+}
+.regexp button {
+    color: #000;
+}
+.notice{
+    margin-top: 10px;
+    display: inline-block;
+}
+.succ{
+    color: #000;
+}
+.warning{
+    color: #ffbf6d;
+}
+.error{
+    color: #fc406a;
+}
