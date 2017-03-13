@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 300px;
+    margin:100px auto;
+}
+
+/* 伪元素实现 */
+
+.checkbox{
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.checkBox + label,
+.radios + label{
+    width:16px;
+    height: 16px;
+    border:1px solid #d9d9d9;
+    display:flex;
+}
+.checkBox:checked+label,
+.radios:checked+label{
+    border:1px solid #d73d32;
+    font-weight: 700;
+}
+.checkBox:checked+label::after,
+.radios:checked+label::after{
+    margin: auto;
+    content: '√';
+    color: red;
+    width:8px;
+    height:8px;
+    line-height: 8px;
+    text-align: center;
+    font-size: 12px;
+}
+input{
+    margin:0;
+    display: none;
+}
+
+
+.radio{
+    display: flex;
+    width: 50px;
+    justify-content: space-between;
+}
+.radios+label{
+    border-radius: 50%;
+}
+.radios:checked+label::after{
+    border-radius: 50%;
+    width:8px;
+    height:8px;
+    line-height: 8px;
+    content: ' ';
+    background: #d73d32;
+}
+
+/* 雪碧图实现 */
+/* checkbox */
+.checkBox_sprit+label,
+.radioBox_sprit+label{
+    width: 16px;
+    height:16px;
+    border:none;
+    display: inline-block;
+    background:url('../bg.png') no-repeat;
+}
+
+.checkBox_sprit+label{
+    background-position:-25px -32px;
+}
+.radioBox_sprit+label{
+    background-position: -24px -10px;
+}
+.checkBox_sprit:checked+label{
+    background-position: -60px -32px;
+}
+.radioBox_sprit:checked+label{
+    background-position: -59px -10px;
+}
