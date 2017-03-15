@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*外层圆弧*/
+@keyframes rotation{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    margin-left: calc( 50vw - 150px);
+    margin-top: calc( 50vh - 150px);
+    position: relative;
+}
+.circle{
+    transform: rotate(45deg);
+    background-color: #fff;
+    left: 100px;
+    top: 100px;
+    position: absolute;
+    border: 50px solid;
+    border-radius: 100px;
+    border-left-color: rgb(255,41,140);
+    border-bottom-color: rgb(255,41,140);
+    border-top-color: rgb(251,139,189);
+    border-right-color: rgb(251,139,189);
+}
+
+
+.outerArc{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border: 3px solid rgb(255,41,140);
+    border-radius: 70px;
+    left: 80px;
+    top: 80px;
+    border-top-color: transparent;
+    animation: rotation 0.8s linear infinite;
+}
+
+/*内圆*/
+.leftcircle {
+    transform: rotate(45deg);
+    position: absolute;
+    top:100px;
+    left:100px;
+    border: 50px solid transparent;
+    border-radius: 100px;
+    border-left-color: rgb(251,139,189);
+    border-bottom-color: rgb(251,139,189);
+    animation: left 2s linear infinite;
+    z-index: 9;
+}
+
+.rightcircle {
+    transform: rotate(45deg);
+    position: absolute;
+    top:100px;
+    left:100px;
+    border: 50px solid transparent;
+    border-radius: 100px;
+    border-bottom-color: rgb(255,41,140);
+    border-left-color: rgb(255,41,140);
+    animation: right 2s linear infinite;
+    animation-delay: 0.50s;
+    z-index: 8;
+}
+
+@keyframes left {
+    from {
+        transform: rotate(45deg);
+    }
+    25% {
+        transform: rotate(-135deg);
+    }
+    50% {
+        transform: rotate(-135deg);
+    }
+    75% {
+        transform: rotate(-315deg);
+    }
+    to {
+        transform: rotate(-315deg);
+    }
+}
+@keyframes right {
+    from {
+        transform: rotate(45deg);
+        z-index: 9;
+    }
+    25% {
+        transform: rotate(-135deg);
+    } /*开始等待*/
+    50% {
+        transform: rotate(-135deg);
+        z-index: 9;
+    }
+    50.0001% {
+        transform: rotate(-135deg);
+        z-index: 8;
+    }
+    75% {
+        transform: rotate(-315deg);
+        z-index: 8;
+    }
+    99.999% {
+        transform: rotate(-315deg);
+        z-index: 8;
+    }
+    to {
+        transform: rotate(-315deg);
+        z-index: 9;
+    }
+}
