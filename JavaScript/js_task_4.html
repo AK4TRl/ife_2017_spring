@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>IFE JavaScript Task 04</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        ul > li{
+            list-style: none;
+            display: inline-block;
+        }
+        li + li{
+            padding: 0 5px;
+            margin-left: 5px;
+        }
+        .rq{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<input type="text" id="input1">
+<span id="button">
+    <!--in-->
+    <button id="leftIn">左侧入</button>
+    <button id="rightIn">右侧入</button>
+
+    <!--out-->
+    <button id="leftOut">左侧出</button>
+    <button id="rightOut">右侧出</button>
+</span>
+<ul id="source">
+    <!--<li>-->
+</ul>
+<script>
+    (function () {
+        var ul = document.getElementById('source');
+        var btn = document.getElementById('button');
+        btn.onclick = function (event) {
+            switch (event.target.id){
+                case 'leftIn' : leftAdd(); break;
+                case 'rightIn' : rightAdd(); break;
+                case 'leftOut' : leftRemove(); break;
+                case 'rightOut' : rightRemove(); break;
+            }
+        }
+
+        function rightAdd() {
+            var num = document.getElementById('input1').value;
+            if(!isNaN(num)){
+                var newNode = document.createElement('li');
+                newNode.innerHTML = num;
+                newNode.className = 'rq';
+                ul.appendChild(newNode)
+            }
+        }
+        function leftAdd() {
+            var num = document.getElementById('input1').value;
+            if(!isNaN(num)){
+                var newNode = document.createElement('li');
+                newNode.innerHTML = num;
+                newNode.className = 'rq';
+                ul.insertBefore(newNode,ul.getElementsByTagName('li')[0])
+            }
+        }
+
+        function rightRemove() {
+            ul.removeChild(ul.lastElementChild);
+        }
+        function leftRemove() {
+            //console.log(ul.firstElementChild)
+            ul.removeChild(ul.firstElementChild);
+        }
+
+    })();
+</script>
+</body>
+</html>
