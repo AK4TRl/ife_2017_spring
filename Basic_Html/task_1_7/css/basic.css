@@ -13,7 +13,7 @@ section:before, section:after {
     display: table;
 }
 
-/* ¶¥²¿µ¼º½Ìõ */
+/* é¡¶éƒ¨å¯¼èˆªæ¡ */
 header {
     height: 55px;
     position: relative;
@@ -30,7 +30,7 @@ header {
 .logo-text {
     font-size: 21px;
     color: #393a3a;
-    font-family: "Adobe ºÚÌå Std R", "ºÚÌå", sans-serif;
+    font-family: "Adobe é»‘ä½“ Std R", "é»‘ä½“", sans-serif;
     position: absolute;
     top: 18px;
     float: left;
@@ -49,7 +49,7 @@ header a, header a:visited {
     color: #393a3a;
     font-size: 14px;
     padding: 15px 20px;
-    font-family: "Î¢ÈíÑÅºÚ", sans-serif;
+    font-family: "å¾®è½¯é›…é»‘", sans-serif;
     border-bottom: solid 0 #e74f4d;
 }
 header a:hover {
@@ -73,7 +73,7 @@ header li > .login-text {
     top: 20px;
 }
 
-/* Ê×Ò³´óÍ¼ */
+/* é¦–é¡µå¤§å›¾ */
 .cover {
     width: 100%;
     height: calc(100vmin - 55px);
@@ -89,7 +89,7 @@ header li > .login-text {
 .cover h1 {
     font-size: 60px;
     color: #fff;
-    font-family: "Î¢ÈíÑÅºÚ", sans-serif;
+    font-family: "å¾®è½¯é›…é»‘", sans-serif;
     position: absolute;
     top: 340px;
     left: 150px;
@@ -104,14 +104,14 @@ header li > .login-text {
 .cover h3 {
     font-size: 21px;
     color: #fff;
-    font-family: "Î¢ÈíÑÅºÚ", sans-serif;
+    font-family: "å¾®è½¯é›…é»‘", sans-serif;
     font-weight: normal;
 }
 .cover .start-bottom, .cover .start-bottom:visited {
     background-color: #e7504d;
     font-size: 30px;
     color: #fff;
-    font-family: "Î¢ÈíÑÅºÚ", sans-serif;
+    font-family: "å¾®è½¯é›…é»‘", sans-serif;
     text-decoration: none;
     padding: 10px 110px;
     display: block;
@@ -120,7 +120,7 @@ header li > .login-text {
     left: 165px;
 }
 
-/* ¼ò½éÀ¸ */
+/* ç®€ä»‹æ  */
 .intro {
     width: 100%;
     height: 250px;
@@ -138,7 +138,7 @@ header li > .login-text {
 }
 .intro p {
     font-size: 14px;
-    font-family: "Adobe ºÚÌå Std R", "ºÚÌå", sans-serif;
+    font-family: "Adobe é»‘ä½“ Std R", "é»‘ä½“", sans-serif;
     color: #767777;
     line-height: 18px;
 }
@@ -159,7 +159,7 @@ header li > .login-text {
     left: 75%;
 }
 
-/* ÎÊ¾äÀ¸ */
+/* é—®å¥æ  */
 .question {
     width: 100%;
     height: 350px;
@@ -174,13 +174,13 @@ header li > .login-text {
 }
 .question p {
     font-size: 60px;
-    font-family: "Adobe ºÚÌå Std R", "ºÚÌå", sans-serif;
+    font-family: "Adobe é»‘ä½“ Std R", "é»‘ä½“", sans-serif;
     color: rgba(50, 51, 51, 0.5);
     line-height: 56px;
     text-align: center;
 }
 
-/* ²éÕÒ³ÇÊÐ»î¶¯ÐÅÏ¢À¸ */
+/* æŸ¥æ‰¾åŸŽå¸‚æ´»åŠ¨ä¿¡æ¯æ  */
 .search {
     width: 100%;
     height: 350px;
@@ -191,7 +191,7 @@ header li > .login-text {
 .search .title {
     font-size: 21px;
     color: #fff;
-    font-family: "Î¢ÈíÑÅºÚ", sans-serif;
+    font-family: "å¾®è½¯é›…é»‘", sans-serif;
     line-height: 42px;
     text-align: center;
     margin-top: 50px;
@@ -206,7 +206,7 @@ header li > .login-text {
 .search p {
     font-size: 14px;
     color: rgba(255, 255, 255, 1.0);
-    font-family: "Î¢ÈíÑÅºÚ", sans-serif;
+    font-family: "å¾®è½¯é›…é»‘", sans-serif;
     line-height: 24px;
     text-align: center;
     margin-top: 10px;
@@ -217,7 +217,7 @@ header li > .login-text {
 }
 .search select {
     color: #aaa;
-    font-family: "Î¢ÈíÑÅºÚ", sans-serif;
+    font-family: "å¾®è½¯é›…é»‘", sans-serif;
     display: inline-block;
     margin-top: 2%;
     width: 18%;
@@ -245,7 +245,7 @@ header li > .login-text {
     line-height: 34px;
     font-size: 16px;
     color: #fff;
-    font-family: "Î¢ÈíÑÅºÚ", sans-serif;
+    font-family: "å¾®è½¯é›…é»‘", sans-serif;
     letter-spacing: 1em;
     text-indent: 1em;
     margin-top: 2%;
@@ -259,7 +259,7 @@ header li > .login-text {
     outline: none;
 }
 
-/* »î¶¯Õ¹Ê¾À¸ */
+/* æ´»åŠ¨å±•ç¤ºæ  */
 .activity {
     width: 100%;
     height: 600px;
@@ -289,31 +289,31 @@ header li > .login-text {
 .activity .title {
     font-size: 22px;
     color: #646464;
-    font-family: "Î¢ÈíÑÅºÚ", sans-serif;
+    font-family: "å¾®è½¯é›…é»‘", sans-serif;
 }
 .activity p {
     font-size: 18px;
     color: #9f9f9f;
-    font-family: "Î¢ÈíÑÅºÚ", sans-serif;
+    font-family: "å¾®è½¯é›…é»‘", sans-serif;
     text-align: center;
     margin-top: 10px;
 }
 .activity .top-title {
     font-size: 28px;
     color: #646464;
-    font-family: "Î¢ÈíÑÅºÚ", sans-serif;
+    font-family: "å¾®è½¯é›…é»‘", sans-serif;
     letter-spacing: 20px;
     text-indent: 0.5em;
 }
 .activity .top-text {
     font-size: 18px;
     color: #9f9f9f;
-    font-family: "Î¢ÈíÑÅºÚ", sans-serif;
+    font-family: "å¾®è½¯é›…é»‘", sans-serif;
     text-align: center;
     margin-bottom: 10px;
 }
 
-/* Í¼ÎÄ½éÉÜÀ¸ */
+/* å›¾æ–‡ä»‹ç»æ  */
 .info {
     width: 100%;
     height: 500px;
@@ -338,7 +338,7 @@ header li > .login-text {
     margin: 100px auto 0 auto;
     text-align: center;
     color: #fff;
-    font-family: "Î¢ÈíÑÅºÚ", sans-serif;
+    font-family: "å¾®è½¯é›…é»‘", sans-serif;
 }
 .info .left-block .cn-title {
     font-size: 50px;
@@ -366,7 +366,7 @@ header li > .login-text {
     width: 400px;
     margin: 100px auto 0 auto;
     text-align: center;
-    font-family: "Î¢ÈíÑÅºÚ", sans-serif;
+    font-family: "å¾®è½¯é›…é»‘", sans-serif;
 }
 .info .right-block .title {
     font-size: 24px;
@@ -384,7 +384,7 @@ header li > .login-text {
 .info .right-block .content-text {
     font-size:  16px;
     line-height: 26px;
-    font-family: "Adobe ËÎÌå Std L", "ËÎÌå", sans-serif;
+    font-family: "Adobe å®‹ä½“ Std L", "å®‹ä½“", sans-serif;
     color: #aaa;
     text-align: left;
     margin-bottom: 50px;
@@ -392,7 +392,7 @@ header li > .login-text {
 .info .right-block .btn {
     border: solid 1px #f33;
     color: #f33;
-    font-family: "Î¢ÈíÑÅºÚ", sans-serif;
+    font-family: "å¾®è½¯é›…é»‘", sans-serif;
     width: 120px;
     height: 35px;
     line-height: 32px;
@@ -406,7 +406,7 @@ header li > .login-text {
     color: #aaa;
 }
 
-/* ²é¿´¸ü¶àÀ¸ */
+/* æŸ¥çœ‹æ›´å¤šæ  */
 .more {
     width: 100%;
     height: 600px;
@@ -429,7 +429,7 @@ header li > .login-text {
     display: block;
     margin: 200px auto 0 auto;
     text-align: center;
-    font-family: "Î¢ÈíÑÅºÚ", sans-serif;
+    font-family: "å¾®è½¯é›…é»‘", sans-serif;
 }
 .more .left-block1 p {
     font-size: 24px;
@@ -457,7 +457,7 @@ header li > .login-text {
 }
 .more a {
     font-size: 24px;
-    font-family: "Î¢ÈíÑÅºÚ", sans-serif;
+    font-family: "å¾®è½¯é›…é»‘", sans-serif;
     width: 200px;
     height: 42px;
     line-height: 40px;
@@ -501,7 +501,7 @@ header li > .login-text {
     transform: translateY(-50%);
 }
 
-/* ¼ÓÈë±íµ¥À¸ */
+/* åŠ å…¥è¡¨å•æ  */
 .form {
     width: 100%;
     height: 800px;
@@ -516,7 +516,7 @@ header li > .login-text {
 .form .title-block .title {
     font-size: 21px;
     color: #333;
-    font-family: "Adobe ºÚÌå Std R", "ºÚÌå", sans-serif;
+    font-family: "Adobe é»‘ä½“ Std R", "é»‘ä½“", sans-serif;
 }
 .form .title-block .line {
     width: 40px;
@@ -528,7 +528,7 @@ header li > .login-text {
 .form .title-block p {
     font-size: 12px;
     color: #aaa;
-    font-family: "Î¢ÈíÑÅºÚ", sans-serif;
+    font-family: "å¾®è½¯é›…é»‘", sans-serif;
     line-height: 22px;
 }
 .form .wrapper {
@@ -553,13 +553,13 @@ header li > .login-text {
 .form .left-block .title {
     font-size: 14px;
     color: #231815;
-    font-family: "Adobe ºÚÌå Std R", "ºÚÌå", sans-serif;
+    font-family: "Adobe é»‘ä½“ Std R", "é»‘ä½“", sans-serif;
     margin: 15px 0;
 }
 .form .left-block p, .form .left-block a {
     font-size: 12px;
     color: rgba(35, 24, 21, 0.6);
-    font-family: "Adobe ËÎÌå Std L", "ËÎÌå", sans-serif;
+    font-family: "Adobe å®‹ä½“ Std L", "å®‹ä½“", sans-serif;
     line-height: 21px;
 }
 .form .left-block a {
@@ -581,7 +581,7 @@ header li > .login-text {
     margin-bottom: 20px;
     font-size: 14px;
     color: #333;
-    font-family: "Î¢ÈíÑÅºÚ", sans-serif;
+    font-family: "å¾®è½¯é›…é»‘", sans-serif;
     padding-left: 15px;
 }
 .form textarea {
@@ -598,10 +598,10 @@ header li > .login-text {
     height: 42px;
     font-size: 16px;
     color: #333;
-    font-family: "Î¢ÈíÑÅºÚ", sans-serif;
+    font-family: "å¾®è½¯é›…é»‘", sans-serif;
 }
 
-/* ÁªÏµÀ¸ */
+/* è”ç³»æ  */
 .contact {
     width: 100%;
     height: 400px;
@@ -612,14 +612,14 @@ header li > .login-text {
 .contact p {
     font-size: 21px;
     color: #fff;
-    font-family: "Adobe ºÚÌå Std R", "ºÚÌå", sans-serif;
+    font-family: "Adobe é»‘ä½“ Std R", "é»‘ä½“", sans-serif;
     margin-top: 100px;
     line-height: 42px;
 }
 .contact p+p {
     font-size: 12px;
     color: #fff;
-    font-family: "Adobe ËÎÌå Std L", "ËÎÌå", sans-serif;
+    font-family: "Adobe å®‹ä½“ Std L", "å®‹ä½“", sans-serif;
     margin: 0;
     line-height: 20px;
 }
@@ -651,7 +651,7 @@ header li > .login-text {
     background-color: #6f7178;
     font-size: 16px;
     color: #fff;
-    font-family: "Î¢ÈíÑÅºÚ", sans-serif;
+    font-family: "å¾®è½¯é›…é»‘", sans-serif;
     border: none;
     display: block;
     float: left;
@@ -679,7 +679,7 @@ header li > .login-text {
     width: 24px;
 }
 
-/* Ò³½Å */
+/* é¡µè„š */
 footer {
     width: 100%;
     height: 80px;
@@ -687,7 +687,7 @@ footer {
     position: relative;
     font-size: 12px;
     color: #fff;
-    font-family: "Adobe ËÎÌå Std L", "ËÎÌå", sans-serif;
+    font-family: "Adobe å®‹ä½“ Std L", "å®‹ä½“", sans-serif;
 }
 footer p {
     position: absolute;
