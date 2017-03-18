@@ -1,0 +1,51 @@
+img{
+    height: 80px;
+    width: 80px;
+    border: solid 1px #999;
+}
+div{
+    background-color: white;
+}
+p{
+    font-family: "Microsoft JhengHei UI", "Microsoft YaHei UI", "Courier New", sans-serif;
+    font-size: 20px;
+}
+.div2-style{
+    margin-left: 270px;
+    margin-right: 140px;
+    padding:20px;
+    border: solid 1px #999;
+    min-width: 300px;
+}
+.div3-style{
+    border: solid 1px #999;
+    float: right;
+    width: 120px;
+}
+.div3-style > img{
+    margin: 10px auto;
+    display: block;
+}
+
+.body-style{
+    background-color: #eee;
+    padding: 20px;
+    border: solid 1px #999;
+    height: auto;
+    min-width: 700px;
+    float: left;
+    margin: 10px;
+}
+.team_div {
+    border: solid 1px #999;
+    width: 200px;
+    float: left;
+    margin: 10px;
+    padding:20px;
+}
+.team_div > p{
+    text-align: center;
+}
+.team_div > img{
+    float: left;
+}

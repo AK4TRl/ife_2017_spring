@@ -1,0 +1,26 @@
+.wrap{
+    width:400px;
+    height: 200px;
+    background: #ccc;
+    position: absolute;
+    overflow: hidden;
+    top:50%;
+    left:50%;
+    margin-left: -200px;
+    margin-top: -100px;
+}
+.corner{
+    background: #fc0;
+    position: absolute;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.bottom-corner {
+    left: 350px;
+    top: 150px;;
+}
+.top-corner{
+    right:350px;
+    bottom: 150px;
+}
