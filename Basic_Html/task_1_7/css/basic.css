@@ -225,9 +225,6 @@ header li > .login-text {
     font-size: 12px;
     border: none;
     height: 34px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
     background: url(../img/select-arrow.png) 96% / 10% no-repeat #eee;
 }
 .search select+select {
@@ -251,9 +248,6 @@ header li > .login-text {
     margin-top: 2%;
     margin-left: 5vw;
     border: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
 }
 .search input:focus {
     outline: none;
@@ -342,7 +336,6 @@ header li > .login-text {
 }
 .info .left-block .cn-title {
     font-size: 50px;
-
 }
 .info .left-block .title {
     font-size: 160px;
@@ -390,6 +383,7 @@ header li > .login-text {
     margin-bottom: 50px;
 }
 .info .right-block .btn {
+    background-color: #fff;
     border: solid 1px #f33;
     color: #f33;
     font-family: "微软雅黑", sans-serif;
@@ -398,6 +392,10 @@ header li > .login-text {
     line-height: 32px;
     display: block;
     margin: 0 auto 20px auto;
+}
+.info .right-block .btn:hover{
+    background-color: #f33;
+    color: #fff;
 }
 .info .right-block .circle {
     font-size: 28px;
@@ -412,7 +410,8 @@ header li > .login-text {
     height: 600px;
     position: relative;
 }
-.more .left-block1, .more .left-block2 {
+.more .left-block1,
+.more .left-block2 {
     float: left;
     width: 30%;
     height: 100%;
@@ -556,7 +555,8 @@ header li > .login-text {
     font-family: "Adobe 黑体 Std R", "黑体", sans-serif;
     margin: 15px 0;
 }
-.form .left-block p, .form .left-block a {
+.form .left-block p,
+.form .left-block a {
     font-size: 12px;
     color: rgba(35, 24, 21, 0.6);
     font-family: "Adobe 宋体 Std L", "宋体", sans-serif;
@@ -571,7 +571,8 @@ header li > .login-text {
 .form .left-block a img {
     margin-right: 5px;
 }
-.form input, .form textarea {
+.form input,
+.form textarea {
     background-color: #ededed;
     border: #ededed;
     border-radius: 2px;
