@@ -53,11 +53,11 @@
 
     function outputHTML(arr){
         ul.innerHTML = "";
-        arr.sort(function(a,b){
-            return a-b;
+        arr.sort(function(a, b){
+            return a - b;
         })
         for(var i = 0; i < arr.length; ++i){
-            source.innerHTML += '<li style="height:'+arr[i]+'px;">'+arr[i]+'</li>';
+            ul.innerHTML += '<li style="height:'+arr[i]+'px;">'+arr[i]+'</li>';
         }
     }
 })();
