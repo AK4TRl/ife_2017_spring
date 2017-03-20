@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul > li{
+    list-style: none;
+    display: inline-block;
+}
+li + li{
+    padding: 0 5px;
+    margin-left: 5px;
+}
+.rq{
+    background-color: red;
+}
+.change{
+    background-color: yellow;
+    color: red;
+}
+textarea {
+    float: left;
+    resize: none;
+}
